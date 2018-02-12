@@ -2,7 +2,7 @@
 <div class="shop-home bcwhite">
 	<!-- 顶部导航    -->
     <yd-slider autoplay="4000" speed="800" style="height: 120px;"> 	
-	    <yd-slider-item v-for="item in slider"> 
+	    <yd-slider-item v-for="(item,index) in slider" :key="index"> 
             <img :src="item.pic">	      
 	    </yd-slider-item>
 	</yd-slider>

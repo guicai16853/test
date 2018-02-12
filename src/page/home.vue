@@ -7,7 +7,7 @@
 	</div>
 	   <!-- 顶部轮播   -->
     <yd-slider autoplay="4000" speed="800" >   	
-	    <yd-slider-item v-for="item in slider">
+	    <yd-slider-item v-for="(item,index) in slider" :key="index">
 	            <img :src="item.pic">	      
 	    </yd-slider-item>
 	</yd-slider>
@@ -59,7 +59,7 @@
 	<div class="subNav">
 			<div class="header">
 				<div>
-				<a  v-for="(item,index) in navList" :class="{blue: changeblue == index}" @click="blue(index)" >{{item.title}}	
+				<a  v-for="(item,index) in navList" :key="index" :class="{blue: changeblue == index}" @click="blue(index)" >{{item.title}}	
 				</a>
 				</div>
 				<p class="header-right">
