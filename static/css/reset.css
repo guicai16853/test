@@ -1,0 +1,186 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,textarea,p,blockquote,th,td,input,select,textarea,button {margin:0;padding:0}  /* 初始化标签在所有浏览器中的margin、padding值 */  
+fieldset,img {border:0 none;width: 100%;height: 100%;}  /* 重置fieldset（表单分组）、图片的边框为0*/  
+dl,ul,ol,menu,li {list-style:none}   /* 重置类表前导符号为onne,menu在HTML5中有效 */  
+blockquote, q {quotes: none}   /* 重置嵌套引用的引号类型 */  
+blockquote:before, blockquote:after,q:before, q:after {content:'';content:none}  /* 重置嵌套引用*/  
+input,select,textarea,button {vertical-align:middle}  /* 重置表单控件垂直居中*/  
+button {border:0 none;background-color:transparent;cursor:pointer}  /* 重置表单button按钮效果 */  
+html{color:#000;overflow-y:scroll;overflow:-moz-scrollbars-vertical}
+body {background:#F0F0F0}   /* 重置body 页面背景为白色 */  
+body,button,input,select,textarea{font-size:12px;font-family:arial,'Hiragino Sans GB','Microsoft Yahei','微软雅黑','宋体',\5b8b\4f53,Tahoma,Arial,Helvetica,STHeiti}
+a {color:#666;text-decoration:none}  /* 重置链接a标签 */  
+a:active, a:hover {text-decoration:none}   /* 重置链接a标签的鼠标滑动效果 */  
+address,caption,cite,code,dfn,em,var {font-style:normal;font-weight:normal}  /* 重置样式标签的样式 */  
+caption {display:none;}    /* 重置表格标题为隐藏 */  
+table {width:100%;border-collapse:collapse;border-spacing:0;table-layout:fixed;}    /* 重置table属性 */  
+input{
+	border: none;
+}
+.bcwhite{
+	background-color: white
+}
+.red{
+	color: red;
+}
+.blue{
+	color:#00b7ee ;
+}
+.yellow {
+    color: #f4c837;
+}
+.orange{
+	color: #f98e1d;;
+}
+.white{
+	color: white;
+}
+.grey{
+	color:  #999999;;
+}
+.light_blue{
+	color: deepskyblue;
+}
+.nowarpp{
+	white-space: nowrap;
+}
+.bold{
+	font-weight: bold;
+}
+.fs10 {
+    font-size: 1rem;
+}
+.fs11 {
+    font-size: 1.1rem;
+}
+.fs12 {
+    font-size: 1.25rem;
+}
+.fs15 {
+    font-size: 1.5rem;
+}
+.fs18 {
+    font-size: 1.8rem;
+}
+.fs24 {
+    font-size: 2.4rem;
+}
+.fs30 {
+	font-size: 3rem;
+}	 
+.fs36 {
+    font-size: 3.6rem;
+}
+.nowarp{
+	white-space: nowrap;
+}
+.bc-blue{
+  background: #00b7ee;
+}
+.pl15{
+	padding-left: 1.5rem;
+}
+.pr08{
+	padding-right: 0.8rem;
+}
+.pd04{
+	padding: 0.4rem;
+}
+.pd08{
+	padding: 0.8rem;
+}
+.pt08{
+	padding-top: 0.8rem;
+}
+.ptb05{
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+}
+.plr10{
+	padding: 0 1rem;
+}
+.pd-bottom08{
+	padding-bottom: 0.8rem;
+}
+.pd-header{
+  padding: 0.8rem 1.25rem;
+}
+.mt05{
+	margin-top: 0.5rem;
+}
+.mt06{
+	margin-top: 0.6rem;
+}
+.mt10{
+	margin-top: 1rem;
+}
+.mt12{
+	margin-top: 1.2rem;
+}
+.mt20{
+	margin-top: 2rem;
+}
+.mb05{
+	margin-bottom: 0.5rem;
+}
+.mb30{
+	margin-bottom: 3rem;
+}
+.mb50{
+	margin-bottom: 5rem;
+}
+.ml5{
+	margin-left: 0.5rem;
+}
+.ml10{
+	margin-left: 1rem;
+}
+.ml12{
+	margin-left: 1.2rem;
+}
+.ml15{
+	margin-left: 1.5rem;
+}
+.ml16{
+	margin-left: 1.6rem;
+}
+.ml20{
+	margin-left: 2rem;
+}
+.mr08{
+	margin-right: 0.8rem;
+}
+.mr12{
+	margin-right: 1.2rem;
+}
+.bdd{
+	border-bottom: 1px solid #EEEEEE;
+}
+.tc {
+    text-align: center;
+}
+.flex{
+	display: flex;
+}
+.aItemCenter{
+	align-items: center;
+}
+.flex_between{
+	display: flex;
+	justify-content: space-between;
+}
+.flex_start{
+	justify-content: flex-start;
+}
+.flex_end{
+	justify-content: flex-end;
+}
+.flex_center{
+	justify-content: center;
+}
+.flex_around{
+	display: flex;
+	justify-content: space-around;
+}
+.radius50{
+	border-radius: 50%;
+}

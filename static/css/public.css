@@ -1,0 +1,31 @@
+.btn-save{
+	width: 65%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 0.8rem;
+	background: #ff696a;
+	font-size: 1.26rem;
+	font-weight: bold;
+	color: white;
+	margin: 4rem auto;
+	border-radius: 0.4rem;
+}
+.cansle_btn_base {
+    display: inline-block;
+    border: 1px solid #333;
+    padding: 0.417rem 0.834rem;
+    color: #666666;
+    border-radius: 0.417rem;
+    font-size: 1.167rem;
+    cursor: pointer;
+}
+.sure_btn_pay {
+    display: inline-block;
+    background: #ff5959;
+    padding: 0.417rem 0.834rem;
+    color: #fff;
+    border-radius: 0.417rem;
+    font-size: 1.167rem;
+    cursor: pointer;
+}
