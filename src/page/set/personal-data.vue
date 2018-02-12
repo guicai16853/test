@@ -3,7 +3,7 @@
  	<yd-cell-group>
         <yd-cell-item arrow type="link" href="/set/reviseHead">
             <span slot="left">头像</span>
-            <span slot="right"><img class="headpic" src="../../../dist/static/img/pic9.jpg"></span>
+            <span slot="right"><img class="headpic" src='../../../static/img/pic10.jpg'></span>
         </yd-cell-item>
         <yd-cell-item arrow type="link" href="/set/reviseName">
             <span slot="left">昵称</span>
