@@ -1,10 +1,3 @@
-/*  var btn_back=document.getElementsByClassName("iconfont icon-shenqing-fanhui")
- for(var i=0;i<btn_back.length;i++){
- 	btn_back[i].addEventListener("click", function(){
-   history.back();
-   alert("as");
-});
- }   */
 (function(){
 var btn=document.getElementsByClassName("iconfont icon-shenqing-fanhui");
 var btn=document.getElementsByClassName("iconfont icon-shenqing-fanhui");
@@ -28,6 +21,6 @@ var btn=document.getElementsByClassName("iconfont icon-shenqing-fanhui");
         w()  
     }, false);  
     })(); 
-
+    console.log('12345')
  })()
 	

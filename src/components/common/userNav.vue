@@ -44,7 +44,7 @@
 <style scoped>
 .my_dingdan {
     height: 2.9rem;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     line-height: 2.9rem;
     padding: 0 0.8rem;
 }
@@ -76,6 +76,6 @@
     font-size: 0.8rem;
 }
 .personal_row div p i {
-    font-size: 2.1rem;
+    font-size: 1.7rem;
 }	
 </style>

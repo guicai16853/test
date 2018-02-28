@@ -1,14 +1,5 @@
 <template>
-<div>
-	<div class="produce_top_nav pb7 flex aItemCenter">
-		<p class="fl fs20" style="width: 15%;"><i class="iconfont icon-fanhui2"></i></p>
-		<p class="flex flex_center produce_top fl">
-			<i class="fs14">确认订单</i>
-		</p>
-		<p class="fl" style="width: 15%;"></p>
-		<div class="clearfix"></div>
-	</div>
-	
+<div class="bcwhite">
 	<div class="shouhuo_info">
 		<div class="left">
 			<i class="iconfont icon-location"></i>
@@ -18,7 +9,7 @@
 				<span>收货人：王晓</span>
 				<span>19899888888</span>
 			</p>
-			<p class="lh18 fs12 mt10 flex flex_between">
+			<p class="fs10 mt10 flex flex_between">
 				<span>收货地址：重庆是重庆加班达到零零落落零零落落零零落落了首创鸿恩</span>
 				<i class="iconfont icon-jiantou-copy-copy grey fs18"></i>
 			</p>
@@ -28,12 +19,12 @@
 	
 	<div class="dianpu_dingdan">
 		<div class="flex aItemCenter">
-			<img src="../../../static/img/home_icon.png" width="22" height="22" class="radius50" />
+			<img src="../../../static/img/home_icon.png" style="width: 22px;height: 22px;"  class="radius50" />
 			<b class="ml5 fs12">鲜果生鲜店</b>
 		</div>
 		<div class="flex aItemCenter mt10">
 			<div class="border_back">
-				<img src="../../../static/img/home_icon.png" width="92" height="92" />
+				<img src="../../../static/img/home_icon.png" style="width: 92px;height: 92px;" />
 			</div>
 			<div class="ml10">
 				<p class="fs14 lh20"><span class="red_btn">秒杀</span>【洛川苹果】2018新鲜农家设哪些红富士水果10斤包</p>
@@ -50,7 +41,7 @@
 	</div>
 	
  	<div class="dingdan_lists">
-		<div class="border_bottom">
+		<div class="border_bottom bdd">
 			此商品性质不支持7天退货
 		</div>
 		<div class="border_bottom flex flex_between">
@@ -64,7 +55,7 @@
 			<span>配送时间</span>
 			<span>16:00前付款，预计1月23日(周一)送达</span>
 		</div>
-		<div class="border_bottom  flex flex_between">
+		<div class="border_bottom  flex flex_between bdd">
 			<span>运费险</span>
 			<span class="iconfont grey fs20 icon-jiantou-copy-copy"></span>
 		</div>
@@ -77,17 +68,18 @@
 		</div>
 	</div>
 	
-	<div class="mt10 pl10 white_bac">
-		<div class="dingdan_items">
-			<span>邀请码填写</span>
-			<input type="text" class="radius5 h30 plr10 grey_border" name="" id="" value="" />
+	<div class="mt10 pl10 mb50">
+		<div class="lh40">
+			<span>邀请码填写:</span>
+			<input type="text" style="border:1px solid gray" name="" id="" value="" />
 		</div>
 		<div class="dingdan_items">
 			<div class="lh18">
-				<span>可抵扣购币<i class="red">￥13.9</i></span><br/>
-				<span class="grey">抵用规则</span>
+				<span>可抵扣购币<i class="red">￥13.9</i></span><br/>			
 			</div>
+			
 			<div class="bg_con pt15">
+					<span class="grey">抵用规则</span>
 				<input id="checked_1" type="checkbox" class="switch" />
 				<label for="checked_1"></label>
 			</div>
@@ -149,7 +141,6 @@
 }
 .dingdan_items {
     border-bottom: 0.083rem solid #E8E8E8;
-    height: 4.17rem;
     line-height: 4.17rem;
     display: flex;
     justify-content: space-between;
@@ -167,16 +158,15 @@
     display: flex;
     align-items: center;
     background: #fff;
-    border-top: 0.08333333333333333rem solid #E8E8E8;
+    border-top: 0.08rem solid #E8E8E8;
 }
 .huanren_submit {
     background: orange;
     color: #fff;
-    width: 9.166666666666666rem;
+    width: 9.1rem;
     padding: 1.25rem 0;
     text-align: center;
-    font-size: 1.1666666666666667rem;
-    margin-left: 1.1666666666666667rem;
-    margin-right: -1.1666666666666667rem;
+    font-size: 1.1rem;
+    margin-left: 1.16rem;
 }
 </style>

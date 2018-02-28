@@ -1,17 +1,8 @@
 <template>
-<div>
-	<div class="produce_top_nav pb7 flex flex_center aItemCenter">
-		<p class="fl fs20" style="width: 15%;"><i class="iconfont icon-fanhui2"></i></p>
-		<p class="flex flex_center produce_top fl">
-			<i class="fs14">收货地址</i>
-		</p>
-		<p class="fl tr" style="width: 15%;"></p>
-		<div class="clearfix"></div>
-	</div>
-		
-	<div class="tc pt50">
-		<p><img src="../../../static/img/dingdan.png" width="80"/></p>
-		<p class="mt15 grey fs18">暂无订单</p>
+<div>		
+	<div class="tc pt50 mt20">
+		<p><img src="../../../static/img/dingdan.png" style="width:40%; height:40%"/></p>
+		<p class="mt15 grey fs18 mt10">暂无订单</p>
 		<p class=""><span class="kong_btn_blue">去下单</span></p>
 	</div>	
 </div>		

@@ -11,6 +11,19 @@
 	margin: 4rem auto;
 	border-radius: 0.4rem;
 }
+.btn_sure{
+    width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 0.8rem;
+	background: red;
+	font-size: 1.26rem;
+	font-weight: bold;
+	color: white;
+	margin:0 auto;
+	border-radius: 0.4rem;
+}
 .cansle_btn_base {
     display: inline-block;
     border: 1px solid #333;
@@ -28,4 +41,12 @@
     border-radius: 0.417rem;
     font-size: 1.167rem;
     cursor: pointer;
+}
+.dingdan_submit {
+    background: #FF463C;
+    color: #fff;
+    width: 9.166666666666666rem;
+    padding: 1.25rem 0;
+    text-align: center;
+    font-size: 1.1rem;
 }

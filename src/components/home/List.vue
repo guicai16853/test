@@ -1,26 +1,26 @@
 <template>
 	<div class="home-items" >
 		<!--循环的列表 begin-->
-		<router-link to="/shopHome" class="items" v-for="item in shopInfoList" :key="item">
+		<router-link to="/shopHome" class="items" v-for="(item,index) in shopInfoList" :key="index">
 			<div class="items-left" >
 				<div><img :src="item.pic" /></div>
 				<div class="ml10 mt10">
-					<p class="bold fs14" >{{item.Authentication}}
+					<p class="bold" >{{item.Authentication}}
 						<i class="icon iconfont icon-renzheng"></i>
 						<i class="icon iconfont icon-yunying"></i>
 					</p>
-					<p class="mt5 fs12" ><i class="iconfont icon-yueliang yellow"></i>&nbsp;{{item.distance}}m</p>
-					<p class="mt5 grey fs12" >{{item.industry}}</p>
+					<p class="mt5 "><i class="iconfont icon-yueliang yellow"></i>&nbsp;{{item.distance}}m</p>
+					<p class="mt5 grey" >{{item.industry}}</p>
 				</div>
 			</div>
 			<div class="items-right" >
-				<div class="fs20 light_blue">
+				<div class=" light_blue">
 					<p><i class="icon iconfont icon-location blue"></i></p>
 					<p><i class="icon iconfont icon-liuyan blue"></i></p>
 					<p><i class="icon iconfont icon-phone blue"></i></p>
 				</div>
 				<div>
-					<p class="grey fs10" >浏览{{item.scan}}&nbsp;•&nbsp;留言{{item.words}}</p>
+					<p class="grey" >浏览{{item.scan}}&nbsp;•&nbsp;留言{{item.words}}</p>
 				</div>
 			</div>
 		</router-link>

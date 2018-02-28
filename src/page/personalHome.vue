@@ -2,8 +2,8 @@
 <div class="personal-home bcwhite">	
 	<div class="personal-header bc-blue pd-header white">
 		<div class="top flex_between fs15">
-			<a href="javascript:;"><i class="icon iconfont icon-saoma fs24 white"></i></a>
-			<router-link to="/set"><i class="icon iconfont icon-ttpodicon fs24 white"></i></router-link>
+			<a href="javascript:;"><i class="icon iconfont icon-saoma fs18 white"></i></a>
+			<router-link to="/set"><i class="icon iconfont icon-ttpodicon fs18 white"></i></router-link>
 		</div>
 		<div class="content flex_between mt06 aItemCenter">
 			<div class="left flex">
@@ -13,7 +13,7 @@
 				</div>
 				<div class="ml20 personal-info">
 					<p>
-						<b class="fs18">然</b>&nbsp;&nbsp;
+						<b class="fs12">然</b>&nbsp;&nbsp;
 						<i class="icon iconfont icon-xingbie-nan"></i>&nbsp;&nbsp;
 						<span>第一天</span>
 					</p>
@@ -26,14 +26,14 @@
 			</div>
 			<div class="right">
 				<a href="javascript:;">
-					<p class="icon iconfont icon-shoufukuan fs36 white"></p>
-					<p class="fs12 white">收付款</p>
+					<p class="icon iconfont icon-shoufukuan fs30 white"></p>
+					<p class="fs10 white">收付款</p>
 				</a>
 			</div>
 		</div>
 	</div>
 	
-	<div class="personal-code flex_between fs12">
+	<div class="personal-code flex_between fs10">
 		<div>
 			<p><span class="red">20.00</span>元</p>
 			<p>购物币<span class="light_blue">[明细]</span></p>
@@ -48,53 +48,53 @@
 			<p>邀请码<span class="light_blue">[进入]</span></p>
 		</div>
 		<div style="border-right: none;">
-			<a href="javascript:;"><i class="icon iconfont icon-zuji fs30 light_blue"></i></a>
-			<p style="font-size: 1.1rem">我的足迹</p>
+			<a href="javascript:;"><i class="icon iconfont icon-zuji fs24 light_blue"></i></a>
+			<p>我的足迹</p>
 		</div>	
 	</div>	
 	
 	<userNav></userNav>
 	
-	 <div class="personal-section pl15 mb50">
+	 <div class="personal-section mb50">
 		<div>
 			<a href="javascript:;">
-				<p><i class="icon iconfont icon-dizhiguanli fs18" style="color: #00b7ee;"></i>&nbsp;地址管理</p>
+				<p><i class="icon iconfont icon-dizhiguanli fs15" style="color: #00b7ee;"></i>&nbsp;地址管理</p>
 				<p class="grey"><i class="icon iconfont icon-jiantou-copy-copy"></i></p>
 			</a>
 		</div>
 		<div>
 			<a href="javascript:;">
-				<p><i class="icon iconfont icon-bianqian fs18" style="color: #ff80c2;"></i>&nbsp;订单管理</p>
+				<p><i class="icon iconfont icon-bianqian fs15" style="color: #ff80c2;"></i>&nbsp;订单管理</p>
 				<p class="grey"><i class="icon iconfont icon-jiantou-copy-copy"></i></p>
 			</a>
 		</div>
 		<div>
 			<a href="../shop/shopManagement.html">
-				<p><i class="icon iconfont icon-dianpu fs18" style="color: #fed341;"></i>&nbsp;店铺管理</p>
+				<p><i class="icon iconfont icon-dianpu fs15" style="color: #fed341;"></i>&nbsp;店铺管理</p>
 				<p class="grey"><i class="icon iconfont icon-jiantou-copy-copy"></i></p>
 			</a>
 		</div>
 		<div>
 			<a href="javascript:;">
-				<p><i class="icon iconfont icon-dianpurenzheng fs18" style="color: #fca024;"></i>&nbsp;店铺认证</p>
+				<p><i class="icon iconfont icon-dianpurenzheng fs15" style="color: #fca024;"></i>&nbsp;店铺认证</p>
 				<p class="grey"><i class="icon iconfont icon-jiantou-copy-copy"></i></p>
 			</a>
 		</div>
 		<div>
 			<a href="javascript:;">
-				<p><i class="icon iconfont icon-yunying1 fs18" style="color: #fca024;"></i>&nbsp;申请运营中心</p>
+				<p><i class="icon iconfont icon-yunying1 fs15" style="color: #fca024;"></i>&nbsp;申请运营中心</p>
 				<p class="grey"><i class="icon iconfont icon-jiantou-copy-copy"></i></p>
 			</a>
 		</div>
 		<div>
 			<a href="javascript:;">
-				<p><i class="icon iconfont icon-liuyan fs18" style="color: #00b7ee;"></i>&nbsp;互动</p>
+				<p><i class="icon iconfont icon-liuyan fs15" style="color: #00b7ee;"></i>&nbsp;互动</p>
 				<p class="grey"><i class="icon iconfont icon-jiantou-copy-copy"></i></p>
 			</a>
 		</div>
 		<div>
 			<a href="javascript:;" >
-				<p><i class="icon iconfont icon-paimai fs18" style="color: #ff80c2;"></i>&nbsp;我的拍卖</p>
+				<p><i class="icon iconfont icon-paimai fs15" style="color: #ff80c2;"></i>&nbsp;我的拍卖</p>
 				<p class="grey"><i class="icon iconfont icon-jiantou-copy-copy"></i></p>
 			</a>
 		</div>
@@ -131,8 +131,8 @@ import bottomNav from '../components/common/bottomNav.vue';
 <style scoped>
 
 .personal-home .personal-header .content .left .photo {
-    width: 5rem;
-    height: 5rem;
+    width: 4.1rem;
+    height: 4.1rem;
     border-radius: 50%;
     background: rgba(225, 225, 225, 0.2);
     padding: 0.4rem;
@@ -169,6 +169,9 @@ import bottomNav from '../components/common/bottomNav.vue';
     border-right: 0.08rem solid #e8e8e8;
     text-align: center;
 }
+.personal-section{
+	padding-left: 0.6rem;
+}
 .personal-section div a {
 	padding: 0.8rem;
 	display: flex;
@@ -177,6 +180,6 @@ import bottomNav from '../components/common/bottomNav.vue';
 	border-bottom: 0.2px solid gainsboro;
 }
 .personal-section div a p{
-	font-size: 1.2rem;
+	font-size: 1rem;
 }
 </style>

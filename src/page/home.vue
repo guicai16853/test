@@ -53,7 +53,7 @@
     </div>
 	     <!-- 搜索 -->
 	<div>
-	  	   <yd-search v-model="value1" :on-submit="submitHandler"></yd-search>
+	  	   <yd-search ></yd-search>
     </div>
     	  
 	<div class="subNav">
@@ -113,13 +113,13 @@ export default {
         ]),
 
 	    blue:function(index){
-	   	this.changeblue = index;
+	   		this.changeblue = index;
         },
    		clickDt: function () {
 			this.$refs.profile.warpclick();        
 		}
     },
-    created() {
+   /* created() {
     	axios.get('http://rapapi.org/mockjsdata/31481/index/adAndNews')
     	.then(reponse => {
     		console.log(reponse);
@@ -127,7 +127,7 @@ export default {
     	.catch(error =>{
     		console.log(error);
     	})
-    },
+  	 },   */
   
     components:{
      	List,

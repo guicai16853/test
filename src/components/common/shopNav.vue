@@ -14,12 +14,26 @@
 		</div>
 		<div class="flex01auto flex flex_end" style="width: 200px;">
 			<div class="buuton_right right_orange">加入购物车</div>
-			<div class="buuton_right right_red">立即购买</div>
+			<div class="buuton_right right_red" @click="showbottom">立即购买</div>
 		</div>
 	</div>	
 </template>
 
 <script>
+export default {
+    data() {
+        return {
+			
+		}
+    },
+    methods:{
+        showbottom(){
+         this.$emit('showbottom1')
+        }
+    },
+
+
+}    
 </script>
 
 <style scoped>

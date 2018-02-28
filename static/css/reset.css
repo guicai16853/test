@@ -76,6 +76,12 @@ input{
 .bc-blue{
   background: #00b7ee;
 }
+.lh40{
+	line-height: 4rem;
+}
+.pl10{
+	padding-left: 1rem;
+}
 .pl15{
 	padding-left: 1.5rem;
 }
@@ -91,9 +97,16 @@ input{
 .pt08{
 	padding-top: 0.8rem;
 }
+.pt12{
+	padding-top: 1.2rem
+}
 .ptb05{
 	padding-top: 0.5rem;
 	padding-bottom: 0.5rem;
+}
+.ptb08{
+	padding-top: 0.8rem;
+	padding-bottom: 0.8rem;
 }
 .plr10{
 	padding: 0 1rem;
@@ -151,6 +164,9 @@ input{
 }
 .mr12{
 	margin-right: 1.2rem;
+}
+.btb{
+	border-top: 1px solid #EEEEEE;
 }
 .bdd{
 	border-bottom: 1px solid #EEEEEE;

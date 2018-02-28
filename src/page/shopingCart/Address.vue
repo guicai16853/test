@@ -1,24 +1,15 @@
 <template>
-<div>
-	<div class="produce_top_nav pb7 flex aItemCenter">
-		<p class="fl fs20" style="width: 15%;"><i class="iconfont icon-fanhui2"></i></p>
-		<p class="flex flex_center produce_top fl">
-			<i class="fs14">收货地址</i>
-		</p>
-		<p class="fl" style="width: 15%;"></p>
-		<div class="clearfix"></div>
-	</div>	
-	
+<div>	
 	<div class="shouhuo_adress">
-		<h4 class="fs14 pt15">漠然<span class="inlineblock ml15">179***9098</span></h4>
-		<p class="grey fs14 mt5 lh20">重庆渝北区就将实话实说</p>
-		<div class="border_top flex flex_between mt15 ptb10">
-			<p class="flex aItemCenter">
-				<i class="iconfont icon-yuanActive fs20 red "></i>
+		<h4 class="fs12 pt12">漠然<span class="inlineblock ml15">179***9098</span></h4>
+		<p class="grey fs12 mt05 ">重庆渝北区就将实话实说</p>
+		<div class="border_top flex flex_between ptb08 mt12 btb">
+			<p class="flex aItemCenter fs12">
+				<i class="iconfont icon-yuanActive red "></i>
 				<span class="inlineblock ml10 grey">默认地址</span>
 			</p>
-			<p class="grey fs14 flex">
-				<span class="inlineblock mr10 flex aItemCenter">
+			<p class="grey fs12 flex">
+				<span class="inlineblock mr10 flex aItemCenter mr12">
 					<i class="iconfont icon-bj fs18"></i>&nbsp;编辑
 				</span>
 				<span class="flex aItemCenter">
@@ -29,9 +20,9 @@
 	</div>
 
 	<div class="dingdan_footer flex_center" style="background: none;border: none;">
-			<span class="adress_submit radius3">
-				<i class="fs18 iconfont icon-jia inlineblock mr15"></i>新建地址
-			</span>
+		<span class="adress_submit radius3">
+			<i class="fs18 iconfont icon-jia inlineblock mr15"></i>新建地址
+		</span>
 	</div>
 </div>	
 </template>
@@ -48,7 +39,6 @@
 .shouhuo_adress {
     background: #fff;
     padding: 0 0.84rem;
-    margin-top: 0.84rem;
 }
 .dingdan_footer {
     width: 100%;
